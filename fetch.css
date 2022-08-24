@@ -1,0 +1,71 @@
+*{
+    padding:0;
+    margin: 0;
+}
+.background{
+    background-color:white;
+    height: 100vh;
+    display: flex;
+}
+.dogs{
+background-color:#80471c;
+width: 1389px;
+height: 906px;
+justify-content: center;
+margin-left: 252px;
+border-radius: 127px;
+border: 16px solid;
+}
+
+#breed{
+    margin-top: -599px;
+    margin-left: 1070px;
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.slideshow{
+    overflow: hidden;
+    background-color: darkgray;
+    display: flex;
+    width: 1018px;
+    height: 842px;
+    position: relative;
+    margin-left: 27px;
+    border:black solid 8px;
+    border-radius: inherit;
+    margin-top: 29px;
+}
+.slide{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: contain;
+    opacity: 0;
+    transform: scale(1);
+    transition: all .9s ease-out;
+}
+.slide:nth-last-child(2){
+    opacity: 1;
+    transform: scale(1.05)
+}
+select{
+    font-size: 120%;
+    width: 255px;
+    height: 50px;
+    border: solid black;
+    border-radius: 55px;
+    background-color: white;
+    font-family: 'Rubik Dirt', cursive;
+}
+.text{
+    margin-right: 92px;
+    text-align: right;
+    margin-top: -212px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Rubik Dirt', cursive;
+}
